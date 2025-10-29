@@ -1,0 +1,7 @@
+Licensing & Ethics Mini-Note
+
+Code in this project is licensed under the MIT License, allowing reuse with proper attribution and minimal restrictions.
+Data is shared under the Creative Commons Attribution 4.0 (CC BY 4.0) license, enabling redistribution and adaptation with credit.
+Privacy considerations include ensuring that no personally identifiable information (PII) is collected or stored without consent.
+All data processing complies with relevant data protection regulations such as GDPR.
+Users are encouraged to respect ethical guidelines when using and sharing both code and data.
