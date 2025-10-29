@@ -1,57 +1,56 @@
-# Hackathon STATEC : Architecture Solution
+# Hackathon STATEC: Architecture Solution
 
-## 1. Présentation du projet
+## 1. Project Overview
 
-Ce projet propose une architecture légère et réactive pour la **visualisation et l’analyse des données économiques du Luxembourg de façon simple et vulgarisée**, en s’appuyant sur les datasets de la STATEC.  
-Objectif : permettre aux utilisateurs de poser des questions liées à l’économie luxembourgeoise et d’obtenir des réponses assistées par l’IA, tout en visualisant les indicateurs clés via un dashboard interactif.
+This project proposes a lightweight and responsive architecture for **visualizing and analyzing Luxembourg’s economic data in a simple and accessible way**, leveraging STATEC datasets.  
+**Goal:** Enable users to ask questions related to Luxembourg’s economy and receive AI-assisted answers while visualizing key indicators through an interactive dashboard.
 
-### Principales briques :
-- **Dashboard** : Visualisation des indicateurs et graphiques économiques par thème (finance, démographique et territoire), si besoin extensible.
-- **Indice explicatif** : Facilite la compréhension des thématiques économiques.
-- **Assistant IA** : Répond aux questions de l'utilisateur grâce à un modèle GPT connecté à PowerBI pour orchestrer tout type de conversation autour de la donnée.
-
----
-
-## 2. Pourquoi ce projet est important pour la STATEC
-
-- **Clarification et accessibilité** : Rend les statistiques publiques plus compréhensibles, accessible et visuelles.
-- ****: Faciliter l'utilisation de l'IA autour des données.
-- **Coût optimisé** : Toute l'architecture peut être consdtruite avec des compoosants open-source et gratuit (dashboard en python, moteur de workflow N8N local et gratuit, GenAI open-source).
-- **Modularité et rapidité** : Briques indépendantes, mise en œuvre décentralisée, sans infrastructure lourde. Développement du dashboard indépendant du moteur workflow et de l'IA.
+### Main Components:
+- **Dashboard**: Visualization of economic indicators and charts by theme (finance, demographics, and territory), with optional extensibility.
+- **Explanatory Index**: Helps users understand economic topics.
+- **AI Assistant**: Answers user questions using a GPT model connected to PowerBI to orchestrate any type of data-driven conversation.
 
 ---
 
-## 3. Comment exécuter le projet
+## 2. Why This Project Matters for STATEC
 
-### Prérequis techniques
-- **Datasets STATEC** : Disponibles localement.
-- **Front-end** : Local, sans serveur ni API externe.
-- **Middleware** : N8N (24€/mois) pour gérer les flux (possible en no-code).
-- **IA** : API OpenAI (coût ≈ 0,01€ par requête).
-
-### Outils recommandés
-- **Microsoft PowerBI** : Dashboard.
-- **Microsoft PowerApps** : Champ de saisie.
-- **Microsoft PowerAutomate** : Orchestration des flux.
-- **N8N** : Middleware léger.
-- **OpenAI API** : Assistant IA.
-
-### Étapes
-1. Créer les comptes (OpenAI, N8N).
-2. Élaborer un PMV.
-3. Tester et valider.
+- **Clarity and Accessibility**: Makes public statistics more understandable, accessible, and visual.
+- **Facilitates AI usage around data**.
+- **Optimized Cost**: The entire architecture can be built with open-source and free components (Python dashboard or Tableau, local and free N8N workflow engine, open-source GenAI).
+- **Modularity and Speed**: Independent components, decentralized implementation, no heavy infrastructure. Dashboard development is independent from the workflow engine and AI.
 
 ---
 
-## 4. Principes à respecter
-- Architecture légère et modulaire.
-- Minimisation des appels de données.
-- Maximisation de la gratuité + pay-per-use.
-- Standardisation des flux.
-- Décentralisation (low/no-code).
-- Éviter VM, middleware centralisé, full cloud.
+## 3. How to Run the Project
+
+### Technical Prerequisites
+- **STATEC Datasets**: Available locally.
+- **Front-end**: Local, without server or external API. Dashboard can be published for sharing.
+- **Middleware**: N8N (€24/month, can be replace by free N8N running locally) to manage flows (possible with no-code).
+- **AI**: OpenAI API (cost ≈ €0.01 per request).
+
+### Recommended Tools
+- **Microsoft PowerBI or Tableau**: Dashboard.
+- **Microsoft PowerApps**: Input field.
+- **Microsoft PowerAutomate**: Flow orchestration.
+- **N8N**: Lightweight middleware between PowerAutomate and OpenAI API.
+- **OpenAI API**: AI assistant.
+
+### Steps
+1. Create accounts (OpenAI, N8N).
+2. Build an MVP.
+3. Test and validate.
 
 ---
 
-**Auteur : Hackathon STATEC – EY Teams**  
+## 4. Key Principles
+- Lightweight and modular architecture.
+- Minimize data calls.
+- Standardize flows.
+- Decentralization (low/no-code).
+- Avoid VMs, centralized middleware, full cloud.
+
+---
+
+**Author: Hackathon STATEC – EY Teams**  
 © 2025 Ernst & Young S.A.
