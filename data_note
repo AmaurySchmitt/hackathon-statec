@@ -1,0 +1,54 @@
+# Data Note: Analysis of Demographic and Economic Data for Luxembourg
+## 1. Objective
+
+This data note aims to provide a synthesis of the main demographic and economic indicators related to the working population and seniors in Luxembourg, based on STATEC data.
+
+---
+
+## 2. Data Structure and Sources
+The file compiles several datasets, including:
+- Indicator tracking (status, sources, progress)
+- Distribution by age group and by municipality
+- Evolution of residents and non-residents (payroll employment)
+- Macroeconomic indicators (GDP, pensions)
+- Additional data on birth rates, health, etc.
+
+---
+
+## 3. Key Points of the Analysis
+### 3.1. Demographics and Age Structure
+- **Seniors (65 years and over):** represent 15.2% of the total population.
+- **Working-age population (15-64 years):** 69.2% of the population.
+- **Geographical distribution:** The data details the population by canton and municipality, with a breakdown by age groups (under 15, 15-29, 30-49, 50-64, 65-84, 85 and over).
+
+#### Example of distribution (2021):
+| Age group         | Municipality (ex.) | Number   |
+|-------------------|--------------------|----------|
+| 65-84 years       | Luxembourg         | 13,043   |
+| 85 and over       | Luxembourg         | 2,289    |
+| 65-84 years       | Capellen           | 7,458    |
+| 85 and over       | Capellen           | 1,061    |
+
+---
+
+### 3.2. Economic Indicators
+- **Luxembourg GDP:** Data available but not detailed in this extract.
+- **Share of pensions in GDP:** Increasing, from 9.13% in 2012 to 10.18% in 2023.
+- **Payroll employment:** Detailed tracking of residents and non-residents, with strong growth among cross-border workers (France, Belgium, Germany).
+
+---
+
+### 3.3. Residents vs Non-residents
+
+- **Growth of cross-border workers:** The number of employees from France, Belgium, and Germany is increasing steadily, exceeding 230,000 in 2025.
+- **Luxembourgish residents:** Relative stagnation, around 128,000 employees in 2025.
+- **Share of non-residents:** More than 47% of payroll jobs are held by cross-border workers.
+
+---
+
+### 3.4. Other Indicators Tracked
+
+- **Senior activity rate:** Data available on economic activity by nationality, gender, and age.
+- **Birth rate and age pyramid:** Monitoring in progress, especially for neighboring regions.
+- **Health and infrastructure:** Indicators identified but data still to be completed.
+
